@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#"
+     xml:base="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#abstract -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#abstract">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#author -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#author">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#image -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#image">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#image_small -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#image_small">
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#location">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#organization -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#organization">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#person -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#person">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#published_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#published_date">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#section -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#section">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#subject_description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#subject_description">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#subsection -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#subsection">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#title">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#url -->
+
+    <owl:DatatypeProperty rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#url">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article -->
+
+    <owl:Class rdf:about="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#Article">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#person"/>
+                <owl:allValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#section"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#image_small"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#abstract"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#subject_description"/>
+                <owl:allValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#author"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#organization"/>
+                <owl:allValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#title"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#image"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#url"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#published_date"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#location"/>
+                <owl:allValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.polytech_semantic_web.org/fahim_tarik/ontologies/2019/05/semantic#subsection"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
